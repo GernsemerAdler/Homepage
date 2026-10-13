@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mitglied werden - EFC Gernsemer Adler</title>
+    <style>
+        body {
+            background-color: #ffffff;
+            color: #000000;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #d00000;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #000000;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        main {
+            padding: 30px;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #d00000;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .highlight {
+            color: #d00000;
+            font-weight: bold;
+        }
+
+        form {
+            margin-top: 20px;
+            text-align: left;
+            max-width: 400px;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: #f4f4f4;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        input[type="text"], input[type="email"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+
+        input[type="submit"] {
+            background-color: #d00000;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #a00000;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Mitglied werden im EFC Gernsemer Adler</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Startseite</a>
+        <a href="ueber-uns.html">Über uns</a>
+        <a href="mitglied-werden.html">Mitglied werden</a>
+        <a href="#">Galerie</a>
+        <a href="kontakt.html">Kontakt</a>
+    </nav>
+
+    <main>
+        <h2>Werde Teil des EFC Gernsemer Adler!</h2>
+        <p>Du möchtest unseren Fanclub unterstützen und dabei sein? Dann werde Mitglied im EFC Gernsemer Adler!</p>
+        <p>Genieße Vorteile wie exklusive Events, Auswärtstouren, ein starkes Gemeinschaftsgefühl und vieles mehr!</p>
+
+        <h3>Mitgliedsantrag</h3>
+        <form action="mailto:gernsemeradler.efc@gmail.com" method="post" enctype="text/plain">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">E-Mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="address">Adresse:</label>
+            <input type="text" id="address" name="address">
+
+            <input type="submit" value="Mitglied werden">
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 EFC Gernsemer Adler – Nur die SGE!</p>
+    </footer>
+
+</body>
+</html>
